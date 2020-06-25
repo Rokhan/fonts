@@ -7,37 +7,17 @@ fonts {
   name: "Maven Pro"
   style: "normal"
   weight: 400
-  filename: "MavenPro-Regular.ttf"
-  post_script_name: "MavenProRegular"
+  filename: "MavenPro[wght].ttf"
+  post_script_name: "MavenPro-Regular"
   full_name: "Maven Pro Regular"
-  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
+  copyright: "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\"."
 }
-fonts {
-  name: "Maven Pro"
-  style: "normal"
-  weight: 500
-  filename: "MavenPro-Medium.ttf"
-  post_script_name: "MavenProMedium"
-  full_name: "Maven Pro Medium"
-  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
-}
-fonts {
-  name: "Maven Pro"
-  style: "normal"
-  weight: 700
-  filename: "MavenPro-Bold.ttf"
-  post_script_name: "MavenProBold"
-  full_name: "Maven Pro Bold"
-  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
-}
-fonts {
-  name: "Maven Pro"
-  style: "normal"
-  weight: 900
-  filename: "MavenPro-Black.ttf"
-  post_script_name: "MavenProBlack"
-  full_name: "Maven Pro Black"
-  copyright: "Copyright (c) 2011 by Vissol Ltd (joe@admixdesigns.com). All rights reserved."
-}
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 900.0
+}

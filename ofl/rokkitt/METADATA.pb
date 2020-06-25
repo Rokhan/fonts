@@ -7,19 +7,17 @@ fonts {
   name: "Rokkitt"
   style: "normal"
   weight: 400
-  filename: "Rokkitt-Regular.ttf"
+  filename: "Rokkitt[wght].ttf"
   post_script_name: "Rokkitt-Regular"
-  full_name: "Rokkitt"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \'Rokkitt\'."
-}
-fonts {
-  name: "Rokkitt"
-  style: "normal"
-  weight: 700
-  filename: "Rokkitt-Bold.ttf"
-  post_script_name: "Rokkitt-Bold"
-  full_name: "Rokkitt Bold"
-  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names \'Rokkitt\'."
+  full_name: "Rokkitt Regular"
+  copyright: "Copyright 2016 The Rokkit Project Authors (https://github.com/googlefonts/RokkittFont)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 100.0
+  max_value: 900.0
+}

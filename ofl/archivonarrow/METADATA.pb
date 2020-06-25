@@ -7,38 +7,26 @@ fonts {
   name: "Archivo Narrow"
   style: "normal"
   weight: 400
-  filename: "ArchivoNarrow-Regular.ttf"
+  filename: "ArchivoNarrow[wght].ttf"
   post_script_name: "ArchivoNarrow-Regular"
   full_name: "Archivo Narrow Regular"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
 fonts {
   name: "Archivo Narrow"
   style: "italic"
   weight: 400
-  filename: "ArchivoNarrow-Italic.ttf"
+  filename: "ArchivoNarrow-Italic[wght].ttf"
   post_script_name: "ArchivoNarrow-Italic"
   full_name: "Archivo Narrow Italic"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
+  copyright: "Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)"
 }
-fonts {
-  name: "Archivo Narrow"
-  style: "normal"
-  weight: 700
-  filename: "ArchivoNarrow-Bold.ttf"
-  post_script_name: "ArchivoNarrow-Bold"
-  full_name: "Archivo Narrow Bold"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
-}
-fonts {
-  name: "Archivo Narrow"
-  style: "italic"
-  weight: 700
-  filename: "ArchivoNarrow-BoldItalic.ttf"
-  post_script_name: "ArchivoNarrow-BoldItalic"
-  full_name: "Archivo Narrow Bold Italic"
-  copyright: "Copyright (c) 2012, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com),with Reserved Font Name: Archivo"
-}
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}

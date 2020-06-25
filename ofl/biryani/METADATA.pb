@@ -1,5 +1,5 @@
 name: "Biryani"
-designer: "Dan Reynolds and Mathieu Réguer"
+designer: "Dan Reynolds, Mathieu Réguer"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2015-04-22"
@@ -27,7 +27,7 @@ fonts {
   weight: 400
   filename: "Biryani-Regular.ttf"
   post_script_name: "Biryani-Regular"
-  full_name: "Biryani"
+  full_name: "Biryani Regular"
   copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
 fonts {
@@ -66,7 +66,7 @@ fonts {
   full_name: "Biryani Black"
   copyright: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer."
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

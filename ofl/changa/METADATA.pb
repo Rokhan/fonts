@@ -7,11 +7,17 @@ fonts {
   name: "Changa"
   style: "normal"
   weight: 400
-  filename: "Changa-Regular.ttf"
-  post_script_name: "Changa-Regular"
-  full_name: "Changa"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Changa'"
+  filename: "Changa[wght].ttf"
+  post_script_name: "Changa-ExtraLight"
+  full_name: "Changa ExtraLight"
+  copyright: "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)"
 }
-subsets: "menu"
+subsets: "arabic"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 200.0
+  max_value: 800.0
+}

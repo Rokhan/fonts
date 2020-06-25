@@ -22,6 +22,12 @@ es@forthehearts.net
 
 ChangeLog
 
+2019-03-19 (M Foley) Playfair Display v1.200 VF
+- Generated variable font from v1.200 sources. Upstream is being developed so the vfs are kept in m4rc1e's repo at https://github.com/m4rc1e/Playfair-Display/tree/v1.200-vf
+
+2017-11-02 (Claus Egger Sørensen) Playfair Display v1.200
+- Additional Cyrillic glyphs added
+
 2012-10-26 (Claus Eggers Sørensen) Playfair Display v1.002
 - Final family release
 - UFOs are copies of the Glyphs files
